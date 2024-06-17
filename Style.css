@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    width: 100vw;
+    height: auto;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+        background-color: black;
+}
+.navebar{
+    display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+}
+.navebar a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 1.3vw;
+}
+
+.heding{
+    
+   margin-top: 90px;
+}
+.heding h1{
+    color: white;
+    font-family: "Poppins";
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1;
+    opacity: .8;
+}
+.heding h5{
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.5vw;
+    line-height: 1;
+    opacity: .8;
+}
+.heding #hading1{
+    margin-left: 10vw;
+}
+.heding #hading2{
+    margin-left: 20vw;
+}
+.heding #hading3{
+    margin-left: 37vw;
+}
+
+.chotihading{
+    color: white;
+  text-transform: uppercase;
+  margin-top: 5vw;
+}
+
+.chotihading h5{
+    
+    margin-left: 83vw;
+    font-size: 1vw;
+    line-height: 1.5;
+    }
+   .herofooter{
+    position: absolute;
+   bottom: -20%;
+   padding: 0 2vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+   
+   }
+   .herofooter a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 1vw;
+    
+
+   }
+
+   #iconset{
+    color: white;
+    display: flex;
+    gap: 10px;
+   }
+   
+   #iconset .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 90%;
+    background-color: grey;
+   }
